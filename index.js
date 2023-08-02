@@ -13,7 +13,7 @@ const productos=[
     },
     {
         Id:2,
-        nombre: "pita",
+        nombre: "Pitas",
         valor: 8000,
         categoria:"entrada"
     },
@@ -32,49 +32,49 @@ const productos=[
     {
         Id:5,
         nombre: "Sushi",
-        valor: 15000,
+        valor: 20000,
         categoria:"fuerte"
     },
     {
         Id:6,
         nombre: "Arroz Cantones",
-        valor: 15000,
+        valor: 22000,
         categoria:"fuerte"
     },
     {
         Id:7,
         nombre: "Limonada",
-        valor: 15000,
+        valor: 5000,
         categoria:"bebida"
     },
     {
         Id:8,
         nombre: "Cerveza",
-        valor: 15000,
+        valor: 8000,
         categoria:"bebida"
     },
     {
         Id:9,
         nombre: "Sake",
-        valor: 15000,
+        valor: 10000,
         categoria:"bebida"
     },
     {
         Id:10,
         nombre: "Tiramisu",
-        valor: 15000,
+        valor: 17500,
         categoria:"postre"
     },
     {
         Id:11,
         nombre: "Pie de limon",
-        valor: 15000,
+        valor: 17000,
         categoria:"postre"
     },
     {
         Id:12,
         nombre: "Flan",
-        valor: 15000,
+        valor: 13000,
         categoria:"postre"
     }
 
@@ -161,6 +161,7 @@ const verDetalles=()=>{
     const respuesta =prompt(mensaje);
     if(respuesta.toLowerCase() == "si"){
         alert("Gracias por su compra")
+        console.log("Gracias por su compra vuelva pronto")
         return
     }
 
